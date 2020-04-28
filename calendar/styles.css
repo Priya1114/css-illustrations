@@ -1,0 +1,53 @@
+body {
+  background-color: #c6d8af;
+  font-family: sans-serif;
+}
+
+.center-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.base-div {
+  background-color: #8a959f;
+  height: 250px;
+  width: 256px;
+  border-radius: 2px;
+  position: relative;
+}
+
+.calendar-base {
+  background-color: white;
+  height: 250px;
+  width: 240px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 12px;
+  box-shadow: 2px 6px 12px #44474a;
+}
+
+.wrapper {
+  box-shadow: 1px 3px 5px #e1e1e1 inset;
+  height: inherit;
+  width: inherit;
+  border-radius: 2px;
+}
+
+.month-card {
+  height: 62px;
+  background-color: #ce5f5f;
+  color: white;
+  font-size: 34px;
+  font-weight: 700px;
+  border-radius: 2px 2px 0 0;
+}
+
+.date-card {
+  color: #000000;
+  background-color: white;
+  font-size: 110px;
+  text-align: center;
+  margin-top: 22px;
+  font-weight: 700px;
+}
