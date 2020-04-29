@@ -1,0 +1,150 @@
+body {
+  background-color: #444444;
+}
+
+.horizontally-center {
+  margin: 0 auto;
+}
+
+.bottom-semi-circle {
+  border-radius: 0 0 20px 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.gutter-sides {
+  margin: 0 16px;
+}
+
+.left {
+  position: relative;
+  float: left;
+}
+
+.right {
+  position: relative;
+  float: right;
+}
+
+.neck {
+  height: 38px;
+  width: 62px;
+  background-color: #2f8b56;
+}
+
+.side-neck {
+  height: 18px;
+  width: 100px;
+  background-color: #b2b2b2;
+  border-radius: 2px;
+  position: relative;
+  z-index: -1;
+  top: -27;
+}
+
+.head {
+  margin-left: 18px;
+  height: 34px;
+  width: 160px;
+  border-radius: 4px 4px 0 0;
+  background-color: #222222;
+  position: relative;
+  bottom: -10px;
+  z-index: 2;
+}
+
+.face {
+  background-color: #2f8b58;
+  height: 200px;
+  width: 160px;
+  border-radius: 0 0 24px 24px;
+  box-shadow: 1px 5px 20px #444444;
+  position: relative;
+  z-index: 1;
+}
+
+.ear {
+  height: 26px;
+  width: 18px;
+  background-color: #2f8b58;
+  position: relative;
+  top: 120px;
+}
+
+.inner-ear {
+  height: 13px;
+  width: 9px;
+  background-color: #21653f;
+}
+
+.inner-left {
+  border-radius: 20px 0 0 20px;
+  position: relative;
+  left: 9px;
+  top: 7px;
+}
+
+.inner-right {
+  border-radius: 0 20px 20px 0;
+  position: relative;
+  left: 0;
+  top: 6px;
+}
+
+.left-ear {
+  border-radius: 40px 0 0 40px;
+}
+
+.right-ear {
+  border-radius: 0 40px 40px 0;
+}
+
+.eye {
+  height: 14px;
+  width: 22px;
+  background-color: white;
+}
+
+.inner-eye {
+  height: 9px;
+  width: 14px;
+  background-color:#f25f45;
+  margin: 0 auto;
+}
+
+.eyeball {
+  height: 5px;
+  width: 10px;
+  background-color:#222222;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  height: 16px;
+  width: 46px;
+  background-color: #222222;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.forhead {
+  height: 20px;
+  width: 100px;
+  background-color: #21663f;
+}
+
+.mouth {
+  background-color: #333333;
+  height: 4px;
+  width: 80px;
+  margin-top: 40px;
+}
